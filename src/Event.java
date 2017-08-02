@@ -1,10 +1,11 @@
 import java.util.Date;
-import java.util;
+import java.util.LinkedList;
+
 // Model for all Vancouver Events. Events have a name, date, and description
 public class Event {
 private String name;
 private Date eventDate;
-private LinkedList<Strings> description;
+private LinkedList<String> description;
 
 /**
 Constructor for an Event
@@ -19,7 +20,7 @@ public String getName(){
   return this.name;
 }
 
-public setName(String name){
+public void setName(String name){
   this.name = name;
 }
 
@@ -31,7 +32,7 @@ public LinkedList<String> getDescription(){
   return this.description;
 }
 
-public setDescription(LinkedList<String> description){
+public void setDescription(LinkedList<String> description){
   this.description = description;
 }
 
