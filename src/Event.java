@@ -28,6 +28,10 @@ Constructor for an Event
     return this.eventDate;
   }
 
+  public void setDate(Date date){
+    this.eventDate = date;
+  }
+
   public LinkedList<String> getDescription(){
     return this.description;
   }
@@ -49,6 +53,8 @@ Constructor for an Event
   public String getCost(){
     return this.cost;
   }
+
+
 
 
 }

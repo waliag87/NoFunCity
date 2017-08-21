@@ -21,7 +21,7 @@
       <file leaf-file-name="ArticleParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArticleParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="450">
               <caret line="32" column="87" lean-forward="false" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -30,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,14 +42,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationParser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InformationParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InformationParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="90">
+              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               <folding>
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +58,8 @@
       <file leaf-file-name="EventHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EventHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state relative-caret-position="150">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,19 +70,31 @@
       <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+            <state relative-caret-position="255">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="e#343#344#0" expanded="true" />
                 <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +121,8 @@
         <option value="$PROJECT_DIR$/src/EventHandler.java" />
         <option value="$PROJECT_DIR$/src/ArticleParser.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Event.java" />
         <option value="$PROJECT_DIR$/src/InformationParser.java" />
+        <option value="$PROJECT_DIR$/src/Event.java" />
       </list>
     </option>
   </component>
@@ -525,14 +537,26 @@
           <folding>
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -574,14 +598,26 @@
           <folding>
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -613,14 +649,26 @@
           <folding>
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -652,14 +700,26 @@
           <folding>
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -675,19 +735,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/InformationParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="150">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArticleParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="450">
           <caret line="32" column="87" lean-forward="false" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -697,40 +799,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
-          <folding>
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InformationParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,7 +4,7 @@
  * Created by gwalia on 2017-08-21.
  */
 public class InformationParser {
-    String wholeString;
+    private String wholeString;
 
     public InformationParser(String wholeString){
         this.wholeString = wholeString;

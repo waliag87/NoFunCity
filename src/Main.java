@@ -20,9 +20,11 @@ public class Main {
         }catch (IOException e){
             System.out.println("IO exception was thrown");
         }
+
         // Get the event Names from article <h3> tags then get event information from article <ul> tags
         eventNames = testParser.getEventNames();
         eventInformation = testParser.getEventInformation();
+
         // Create event using the names from <h3> tags
         for (Element eventName: eventNames) {
             Event event = new Event(eventName.text());
