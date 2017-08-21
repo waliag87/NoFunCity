@@ -14,18 +14,23 @@ public class ArticleParser {
     private String articleURL;
     private Document doc;
 
-
+    /**
+     * Creates a parser for your article, on which functions can be called. The first thing that must be done is the doc
+     * must be created, other functions can be called once the doc is made
+     * @param articleURL the url of the article you wish to parse
+     */
     public ArticleParser(String articleURL) {
         this.articleURL = articleURL;
     }
 
     /**
-     * create a jsoup Document
+     * create a jsoup Document, essential to do before calling other methods.
      *
      * @return jsoup Document created from article's URL
      */
     public void getArticleText() throws java.io.IOException {
         this.doc = Jsoup.connect(this.articleURL).get();
+        //TODO: update this class such that this method is performed in the constructor
     }
 
     /**
