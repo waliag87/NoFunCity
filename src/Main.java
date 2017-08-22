@@ -12,7 +12,7 @@ public class Main {
         Elements eventNames;
         Elements eventInformation;
 
-        String articleURL = "http://dailyhive.com/vancouver/vancouver-events-things-to-do-august-20-2017";
+        String articleURL = "http://dailyhive.com/vancouver/vancouver-events-things-to-do-august-21-2017";
         // Create the parser and create it's doc
         ArticleParser testParser = new ArticleParser(articleURL);
         try{
@@ -30,8 +30,40 @@ public class Main {
             Event event = new Event(eventName.text());
             EventHandler.getEventHandler().addEvent(event);
         }
+        //Updates each corresponding event with proper information
+        int eventCount = 0;
+        for (Element singleEventInformation: eventInformation){
+            InformationParser tempParser = new InformationParser(singleEventInformation);
+            Event eventToUpdate =  EventHandler.getEventHandler().getEvent(eventCount);
+            // Above is an issue if there are "See Also's" within Event //TODO: fix this implementation to not include see also's
+           String When = tempParser.findDate();
+           eventToUpdate.setDate(When);
+
+           String Where = tempParser.findLocation();
+           eventToUpdate.setDescription(Where);
+
+            String Time = tempParser.findTime();
+            eventToUpdate.setTime(Time);
+
+            String What = tempParser.findDescription();
+            eventToUpdate.setDescription(What);
+            //Make sure you update next Event
+            eventCount++;
+        }
+
+
+        for (int i = 0; i < EventHandler.getEventCount(); i++){
+            System.out.println(EventHandler.getEventCount());
+            Event e = EventHandler.getEvent(i);
+            System.out.println(e.getName());
+            System.out.println(e.getDate());
+            System.out.println(e.getDescription());
+            System.out.println(e.getLocation());
+            System.out.println(e.getTime());
+        }
 
         //add corresponding information to the events of the event handler
+
 
 
 

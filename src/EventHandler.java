@@ -31,7 +31,15 @@ public class EventHandler {
      * @param event: Event you wish to add to eventList
      */
     public static void addEvent(Event event){
-    eventHandler.eventList.add(event);
+        eventHandler.eventList.add(event);
+    }
+
+    public static Event getEvent(int i){
+        return eventHandler.eventList.get(i);
+    }
+
+    public static int getEventCount(){
+        return eventHandler.eventList.size();
     }
 
 
