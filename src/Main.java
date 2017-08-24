@@ -54,7 +54,7 @@ public class Main {
                 eventCount++;
             }
         }
-        // Testing to make sure events are being added correctly
+        // Adds events to the database
         for (int i = 0; i < EventHandler.getEventCount(); i++){
             Event event = EventHandler.getEvent(i);
             try {
@@ -66,16 +66,8 @@ public class Main {
             }
         }
 
-        // Adding information to MySQL Database
 
-
-
-//        System.out.println(eventNames.text());
-//        System.out.println(eventInformation.text());
-//        System.out.println(testParser.getArticleTitle());
-
-        //TODO: iterate through event information to create Event Objects then add them to the Event Manager;
-        //TODO: figure out how to parse many articles automatically. (static list of URL's??)
+        //TODO: figure out how to parse many articles automatically.
 
     }
 }
