@@ -2,6 +2,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 /**
  * Created by gwalia on 2017-08-21.
@@ -21,7 +22,7 @@ public class Main {
             System.out.println("IO exception was thrown");
         }
 
-        // Get the event Names from article <h3> tags then get event information from article <ul> tags
+        // Get the event names from article <h3> tags then get event information from article <ul> tags
         eventNames = testParser.getEventNames();
         eventInformation = testParser.getEventInformation();
 
@@ -53,18 +54,19 @@ public class Main {
                 eventCount++;
             }
         }
-
+        // Testing to make sure events are being added correctly
         for (int i = 0; i < EventHandler.getEventCount(); i++){
-            Event e = EventHandler.getEvent(i);
-            System.out.println(e.getName());
-            System.out.println(e.getDate());
-            System.out.println(e.getDescription());
-            System.out.println(e.getLocation());
-            System.out.println(e.getTime());
+            Event event = EventHandler.getEvent(i);
+            try {
+                SQLAdder.runAdder(event.getName(), event.getDate(), event.getDescription(),
+                        event.getLocation(), event.getTime());
+            }
+            catch (SQLException e){
+                System.out.println("SQLException was thrown");
+            }
         }
 
-        //add corresponding information to the events of the event handler
-
+        // Adding information to MySQL Database
 
 
 
