@@ -33,27 +33,28 @@ public class Main {
         //Updates each corresponding event with proper information
         int eventCount = 0;
         for (Element singleEventInformation: eventInformation){
-            InformationParser tempParser = new InformationParser(singleEventInformation);
-            Event eventToUpdate =  EventHandler.getEventHandler().getEvent(eventCount);
-            // Above is an issue if there are "See Also's" within Event //TODO: fix this implementation to not include see also's
-           String When = tempParser.findDate();
-           eventToUpdate.setDate(When);
+            // Only updates event if it isn't a see also
+            if (!singleEventInformation.hasClass("see-also-list")) {
+                InformationParser tempParser = new InformationParser(singleEventInformation);
+                Event eventToUpdate = EventHandler.getEventHandler().getEvent(eventCount);
 
-           String Where = tempParser.findLocation();
-           eventToUpdate.setDescription(Where);
+                String When = tempParser.findDate();
+                eventToUpdate.setDate(When);
 
-            String Time = tempParser.findTime();
-            eventToUpdate.setTime(Time);
+                String Where = tempParser.findLocation();
+                eventToUpdate.setLocation(Where);
 
-            String What = tempParser.findDescription();
-            eventToUpdate.setDescription(What);
-            //Make sure you update next Event
-            eventCount++;
+                String Time = tempParser.findTime();
+                eventToUpdate.setTime(Time);
+
+                String What = tempParser.findDescription();
+                eventToUpdate.setDescription(What);
+                //Make sure you update next Event
+                eventCount++;
+            }
         }
 
-
         for (int i = 0; i < EventHandler.getEventCount(); i++){
-            System.out.println(EventHandler.getEventCount());
             Event e = EventHandler.getEvent(i);
             System.out.println(e.getName());
             System.out.println(e.getDate());

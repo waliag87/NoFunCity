@@ -58,7 +58,7 @@ public class ArticleParser {
     }
 
     /**
-     * Get all the event information from the article
+     * Get all the events' information from the article
      *
      * @return A list of Element with all event info
      */
